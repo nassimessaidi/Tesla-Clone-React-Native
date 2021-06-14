@@ -28,6 +28,12 @@ const styles = StyleSheet.create({
     resizeMode: "cover",
     position: "absolute",
   },
+
+  btnGroup: {
+    position: "absolute",
+    width: "100%",
+    bottom: "10%",
+  },
 });
 
 export default styles;
