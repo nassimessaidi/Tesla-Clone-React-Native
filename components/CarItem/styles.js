@@ -1,9 +1,10 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions, StatusBar } from "react-native";
 
 const styles = StyleSheet.create({
   carContainer: {
+    flex: 1,
     width: "100%",
-    height: "100%",
+    height: Dimensions.get("window").height,
   },
 
   titles: {
@@ -22,6 +23,10 @@ const styles = StyleSheet.create({
     color: "#5c5e62",
   },
 
+  taglineCTA: {
+    textDecorationLine: "underline",
+  },
+
   image: {
     width: "100%",
     height: "100%",
@@ -32,7 +37,7 @@ const styles = StyleSheet.create({
   btnGroup: {
     position: "absolute",
     width: "100%",
-    bottom: "10%",
+    bottom: 50,
   },
 });
 
