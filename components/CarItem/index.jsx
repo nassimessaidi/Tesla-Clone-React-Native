@@ -17,12 +17,12 @@ const CarItem = ({ car: { name, tagline, taglineCTA, image } }) => {
         <Button
           type="primary"
           text="Custom Order"
-          onPress={() => console.warn("Custom Order was pressed")}
+          onPress={() => console.log("Custom Order was pressed")}
         />
         <Button
           type="secondary"
           text="Existing Inventory"
-          onPress={() => console.warn("Existing Inventory was pressed")}
+          onPress={() => console.log("Existing Inventory was pressed")}
         />
       </View>
     </View>
