@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
 
   btnText: {
     fontSize: 12,
-    fontWeight: "700",
+    fontWeight: "500",
     textTransform: "uppercase",
   },
 });
